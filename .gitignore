@@ -1,0 +1,6 @@
+data/*
+output/*
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
