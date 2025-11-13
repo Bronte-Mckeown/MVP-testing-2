@@ -1,7 +1,7 @@
 [project]
-name = "add-your-name-here"
+name = "Bronte"
 version = "0.1.0"
-description = "Add your description here"
+description = "Testing MMVP through simple correlation analysis"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

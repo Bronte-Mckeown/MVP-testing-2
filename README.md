@@ -1,12 +1,4 @@
-# OS Schools research template
-
-After starting a new project from this template:
-
-* Update the project details in `pyproject.toml`.
-* Update the title of this document with the name of the repo.
-* Update _Description_ belo with a brief description so that a member of the public viewing this repository could understand, at a high level, what the goals of this specific piece of analysis are.  (It may make sense to edit this as your project progresses).
-* Update _Instructions to run this code_ with instructions for running your code.  (Again, it may make sense to edit this as your project progresses).
-* Remove these instructions.
+# MVP Testing Round 2
 
 ## Project overview
 
@@ -17,12 +9,12 @@ and all requests to share the outputs can be found [here](https://github.com/ben
 
 ## Description
 
-_To be updated by the project owner._
+This analysis code is used to assess the MMVP version of OS-Schools. It correlates English Lit and Maths KS4 current grade scores in 1 school.
 
 ## Instructions to run this code
 
-_To be updated by the project owner.  These instructions describe how to run the sample script in the analysis/ directory._
+To run this code, open your Windows Powershell and run:
 
-To run this code, install [uv](https://docs.astral.sh/uv/guides/tools/), and run:
+    python3 analysis\01_correlate_maths_english.py
 
-    uv run analysis/01_count_rows.py
+These instructions assume you have python3 installed. It will first install pandas if you don't have it installed and then it should run.
